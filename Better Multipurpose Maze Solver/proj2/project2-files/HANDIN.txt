@@ -1,0 +1,107 @@
+Student Name #1: TODO:
+Student ugrad login #1: TODO:
+
+Student Name #2: TODO:
+Student ugrad login #2: TODO:
+
+Team name (for fun!): TODO:
+
+Acknowledgment that you understand and have followed the course's
+collaboration policy
+(http://www.ugrad.cs.ubc.ca/~cs221/current/syllabus.shtml#conduct):
+
+TODO: [[Put your names here again as a signature]]
+
+TODO: submit using: make handin-proj2
+
+----------------------------------------------------------------------
+
+Approximate hours on project: TODO:
+
+----------------------------------------------------------------------
+
+For teams, rough breakdown of work: TODO:
+
+----------------------------------------------------------------------
+
+Acknowledgment of assistance: TODO:
+
+----------------------------------------------------------------------
+
+Questions:
+
+For the explanations, generally a sentence or two should be enough.
+Type your answers directly in this file.
+
+
+1.  Give tight big-theta bounds on the worst-case runtime of the
+add and find functions in LinkedListDict.
+
+TODO:
+
+2.  Run the 5x5 slider puzzle with HeapPriorityQueue and LinkedListDict.
+What runtime do you get?  This is roughly the performance you had
+for Project 1.
+
+TODO:
+
+3.  Run the 5x5 slider puzzle with HeapPriorityQueue and your working
+AVLDict, LinearHashDict, and DoubleHashDict classes.
+What are your run times?  How do they compare to Q2?
+
+TODO:
+
+For the remaining questions, we'll keep using HeapPriorityQueue,
+but switch to the UNSOLVABLE 3x3 slider puzzle to have something
+a bit more challenging for your program.  When we ask you for
+the average depth or number of probes, treat the "More" row as
+being equal to 29.
+
+4.  What is your runtime using AVLDict?  Based on the statistics
+printed out, what is the average depth of the find calls?
+
+TODO:
+
+5.  What is your runtime using LinearHashDict?  Based on the statistics
+printed out, what is the average number of probes for the find calls?
+
+TODO:
+
+6.  Change your LinearHashDict to use the notprimes array instead of the
+primes array for the table size.  (See the example in the constructor,
+and be sure to make the change every where in your program that you set
+the tablesize.)  Now, what is your runtime using LinearHashDict?
+And what is the average number of probes for the find calls?
+(Be sure to change the code back to using primes before you handin
+your code!)
+
+TODO:
+
+7.  What is your runtime using DoubleHashDict?  Based on the statistics
+printed out, what is the average number of probes for the find calls?
+
+TODO:
+
+8.  Change your DoubleHashDict to use the notprimes array instead of the
+primes array for the table size.  What happens?  Why?
+
+TODO:
+
+9.  Keeping your DoubleHashDict using notprimes, change to using hash3
+instead of hash2 for the probing.  What is your runtime using DoubleHashDict?
+What is the average number of probes for the find calls?
+(Be sure to change the code back to using primes before you handin
+your code!)
+
+TODO:
+
+10(Bonus).  For a very small bonus (but a lot of fun), try to explain
+precisely why the chosen hash function (hash1 in the DoubleHashDict)
+interacts so poorly with the notprimes table sizes.
+
+OPTIONAL TODO:
+
+----------------------------------------------------------------------
+
+We will be checking your implementations of AVLDict, LinearHashDict,
+and DoubleHashDict.
